@@ -6,7 +6,7 @@ import HomePage from './homepage';
 
 function App() {
   return (
-    <div className='font-mono text-xl'>
+    <div className='text-gray-600 font-body'>
    <HomePage />
     </div>
 
