@@ -62,7 +62,7 @@ export default function HomePage() {
 
                      <div className='m-4'>
 
-                     <span className='font-bold'>4 Beans Chills pe</span>
+                     <span className='font-bold text-xl block'>Pasta with pepper</span>
                      <span className='block text-gray-500 text-sm'>Recipe by mario</span>
 
                      </div>
@@ -72,11 +72,11 @@ export default function HomePage() {
             </div>
                      </div>
                      <div className=' card hover:shadow-xl '>
-                     <img src="img/noodles.jpg" alt='klk' className='w-full h-32 sm:h-52 object-cover'/>
+                     <img src="img/stew.jpg" alt='klk' className='w-full h-32 sm:h-52 object-cover'/>
 
                      <div className='m-4'>
 
-                     <span className='font-bold'>4 Beans Chills pe</span>
+                     <span className='font-bold text-xl block'>4 Beans Chills pe</span>
                      <span className='block text-gray-500 text-sm'>Recipe by mario</span>
 
                      </div>
@@ -86,11 +86,11 @@ export default function HomePage() {
             </div>
                      </div>
                      <div className=' card hover:shadow-xl '>
-                     <img src="img/noodles.jpg" alt='klk' className='w-full h-32 sm:h-52 object-cover'/>
+                     <img src="img/curry.jpg" alt='klk' className='w-full h-32 sm:h-52 object-cover'/>
 
                      <div className='m-4'>
 
-                     <span className='font-bold'>4 Beans Chills pe</span>
+                     <span className='font-bold text-xl block'>Bread and chilly</span>
                      <span className='block text-gray-500 text-sm'>Recipe by mario</span>
 
                      </div>
@@ -102,10 +102,58 @@ export default function HomePage() {
                      
                  </div>
 
-                 <h4>Most porpular Recipes</h4>
+                 <h4 className='flex font-serif text-lg mt-4 mb-4'>Most porpular Recipes</h4>
 
                  <div>
                      {/* <!--  card hover:shadow-lg s go here --> */}
+
+                     <div className='grid lg:grid-cols-3 sm:text-2xl lg:font-mono gap-8'>
+                 {/* cards goes here */}
+                     <div className=' card  hover'>
+                     <img src="img/noodles.jpg" alt='klk' className='w-full h-32 sm:h-52 object-cover'/>
+
+                     <div className='m-4'>
+
+                     <span className='font-bold text-xl block'>Pasta with pepper</span>
+                     <span className='block text-gray-500 text-sm'>Recipe by mario</span>
+
+                     </div>
+                     <div className="badger">
+              <svg className="inline-block w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>25 min</span>
+            </div>
+                     </div>
+                     <div className=' card hover'>
+                     <img src="img/stew.jpg" alt='klk' className='w-full h-32 sm:h-52 object-cover'/>
+
+                     <div className='m-4'>
+
+                     <span className='font-bold text-xl block'>4 Beans Chills pe</span>
+                     <span className='block text-gray-500 text-sm'>Recipe by mario</span>
+
+                     </div>
+                     <div className="badger">
+              <svg className="inline-block w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>25 min</span>
+            </div>
+                     </div>
+                     <div className=' card hover'>
+                     <img src="img/curry.jpg" alt='klk' className='w-full h-32 sm:h-52 object-cover'/>
+
+                     <div className='m-4'>
+
+                     <span className='font-bold text-xl block'>Bread and chilly</span>
+                     <span className='block text-gray-500 text-sm'>Recipe by mario</span>
+
+                     </div>
+                     <div className="badger">
+              <svg className="inline-block w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>25 min</span>
+            </div>
+                     </div>
+                     
+                 </div>
+
                  </div>
 
                  <div className='flex justify-center md:font-serif mt-10'>
