@@ -52,11 +52,12 @@
 // 
 
  import React, { useEffect, useState } from "react";
- import Timer from "./component/timer"; 
+//  import Timer from "./component/timer"; 
+import Homepage from "./homepage";
  function App() {
   return (
     <div>
-      <Timer />
+      <Homepage />
     </div>
 
   )}
